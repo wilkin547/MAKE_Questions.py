@@ -1,11 +1,15 @@
-class Frase:
 
-    def __init__(self,subject, verb, complement ) -> None:
+class Oracion:
 
-        self.subject = subject
-        self.verb = verb 
-        self.complement = complement
+    frase = ""
+    sujeto = ""
+    vervo = ""
+    complemento = ""
+
+    def __init__ (self,frase) -> None:
+
+        self.frase = frase
         pass
 
-    def sayHelllo(self,mensaje):
-        print (mensaje)
+
+    

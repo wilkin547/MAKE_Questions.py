@@ -1,5 +1,22 @@
 from typing import ItemsView, NewType
 
+from enunciado import Frase
+import enunciado
+
+
+class miniEnunciado(enunciado):
+    def __init__(self) -> None:
+        super().__init__()
+        
+
+
+
+
+
+
+
+
+palabra = Frase("wilkin","pedro","samuel")
 
 frase = input() + " "
 
@@ -75,6 +92,7 @@ def Make_Question_open(palabras):
 
     texto_final =  "what " + vervo +  complento + "? " 
     return texto_final
+
 def estructura_frase(palabras):
     complento = ""
     sujeto = ""
@@ -119,3 +137,6 @@ def estructura_frase(palabras):
     return texto
 
 
+palabra.sayHelllo(frase)
+#print (estructura_frase(encuentra_Pregunta( frase)))
+#encuentra_Pregunta(frase)
